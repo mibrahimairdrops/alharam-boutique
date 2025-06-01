@@ -1,0 +1,22 @@
+<%- include('partials/header') %>
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Exclusive Pakistani Lawn Suits</h2>
+                <p>Discover our latest collection of premium quality ladies suits</p>
+                <a href="/products" class="btn">Shop Now</a>
+            </div>
+        </section>
+        
+        <section class="featured">
+            <h2>Featured Collections</h2>
+            <div class="products-grid">
+                <% for(let i=1; i<=4; i++) { %>
+                <div class="product-card">
+                    <img src="/images/suits/suit<%=i%>.jpg" alt="Pakistani Suit <%=i%>" class="zoomable">
+                    <h3>Design <%=i%></h3>
+                    <p>PKR 5,999</p>
+                </div>
+                <% } %>
+            </div>
+        </section>
+<%- include('partials/footer') %>

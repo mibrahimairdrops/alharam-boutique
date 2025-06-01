@@ -1,0 +1,15 @@
+<%- include('partials/header') %>
+        <section class="products-page">
+            <h1>Our Products Collection</h1>
+            <div class="products-grid">
+                <% for(let i=1; i<=30; i++) { %>
+                <div class="product-card">
+                    <img src="/images/suits/suit<%=i%>.jpg" alt="Pakistani Suit <%=i%>" class="zoomable">
+                    <h3>Design <%=i%></h3>
+                    <p>PKR <%= (Math.floor(Math.random() * 10) + 3) %>,999</p>
+                    <button class="btn">View Details</button>
+                </div>
+                <% } %>
+            </div>
+        </section>
+<%- include('partials/footer') %>

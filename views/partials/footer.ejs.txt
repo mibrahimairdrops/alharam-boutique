@@ -1,0 +1,24 @@
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/products">New Arrivals</a></li>
+                    <li><a href="/contact">Order Inquiry</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-phone"></i> +92 300 1234567</p>
+                <p><i class="fas fa-envelope"></i> info@alharamboutique.com</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2023 Al Haram Boutique. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="/js/zoom.js"></script>
+</body>
+</html>

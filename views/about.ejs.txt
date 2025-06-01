@@ -1,0 +1,14 @@
+<%- include('partials/header') %>
+        <section class="about-page">
+            <h1>About Al Haram Boutique</h1>
+            <div class="about-content">
+                <img src="/images/about.jpg" alt="Our Boutique">
+                <div class="about-text">
+                    <h2>Our Story</h2>
+                    <p>Al Haram Boutique has been providing premium quality Pakistani ladies suits since 2010. We specialize in the finest lawn suits with exquisite embroidery and traditional designs.</p>
+                    <h2>Our Mission</h2>
+                    <p>To bring authentic Pakistani fashion to women worldwide with the highest quality fabrics and craftsmanship.</p>
+                </div>
+            </div>
+        </section>
+<%- include('partials/footer') %>
